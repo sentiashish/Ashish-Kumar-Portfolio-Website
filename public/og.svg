@@ -1,0 +1,14 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B1220"/>
+  <circle cx="1020" cy="110" r="180" fill="#14B8A6" fill-opacity="0.12"/>
+  <circle cx="160" cy="560" r="160" fill="#7C3AED" fill-opacity="0.16"/>
+  <rect x="72" y="72" width="1056" height="486" rx="36" stroke="#243047" stroke-width="2"/>
+  <text x="108" y="180" fill="#E5E7EB" font-family="Space Grotesk, Arial, sans-serif" font-size="28" letter-spacing="4">ASHISH KUMAR</text>
+  <text x="108" y="310" fill="#FFFFFF" font-family="Space Grotesk, Arial, sans-serif" font-size="82" font-weight="700">Software Engineer</text>
+  <text x="108" y="388" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="28">Final-year Computer Engineering student building</text>
+  <text x="108" y="432" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="28">full-stack products, AI tools, and polished web apps.</text>
+  <rect x="108" y="472" width="182" height="44" rx="22" fill="#7C3AED"/>
+  <text x="139" y="501" fill="#FFFFFF" font-family="JetBrains Mono, monospace" font-size="20">Portfolio</text>
+  <rect x="304" y="472" width="150" height="44" rx="22" fill="#14B8A6"/>
+  <text x="338" y="501" fill="#08111F" font-family="JetBrains Mono, monospace" font-size="20">Open to work</text>
+</svg>
