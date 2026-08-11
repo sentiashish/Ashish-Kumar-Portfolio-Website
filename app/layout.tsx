@@ -8,6 +8,8 @@ const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ashishkumar.dev'),
+  keywords: ['Ashish Kumar', 'software engineer', 'computer engineering', 'Next.js', 'React', 'Node.js', 'MongoDB', 'Python'],
+  authors: [{ name: 'Ashish Kumar' }],
   title: {
     default: 'Ashish Kumar — Software Engineer',
     template: '%s — Ashish Kumar',
