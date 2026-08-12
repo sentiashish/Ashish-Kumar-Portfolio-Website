@@ -6,6 +6,4 @@ const eslintConfig = [
   },
   ...nextCoreWebVitals,
 ];
-
-
 export default eslintConfig;
