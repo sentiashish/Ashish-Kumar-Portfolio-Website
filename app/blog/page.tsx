@@ -1,6 +1,27 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 import { blogPosts } from '@/data/blog'
+import { absoluteUrl, siteConfig } from '@/lib/seo'
+
+export const metadata: Metadata = {
+  title: 'Blog',
+  description: 'Notes by Ashish Kumar on software engineering, systems thinking, and building production-ready software products.',
+  alternates: { canonical: '/blog' },
+  openGraph: {
+    title: `Blog | ${siteConfig.name}`,
+    description: 'Notes on software engineering, product development, and practical system design.',
+    url: absoluteUrl('/blog'),
+    type: 'website',
+    images: [{ url: absoluteUrl('/og.svg'), width: 1200, height: 630, alt: 'Ashish Kumar blog page' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `Blog | ${siteConfig.name}`,
+    description: 'Notes on software engineering and building useful products.',
+    images: [absoluteUrl('/og.svg')],
+  },
+}
 
 export default function BlogPage() {
   return <main className="mx-auto min-h-screen max-w-5xl px-5 pb-24 pt-12 md:px-10 md:pt-20">
