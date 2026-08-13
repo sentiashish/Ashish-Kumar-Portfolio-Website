@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     url: siteConfig.url,
     type: 'website',
-    images: [{ url: absoluteUrl('/og.svg'), width: 1200, height: 630, alt: 'Ashish Kumar portfolio' }],
+    images: [{ url: absoluteUrl('/og-card.png'), width: 1731, height: 909, alt: 'Ashish Kumar, Software Engineer at K. J. Somaiya College of Engineering, Mumbai' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: siteConfig.title,
     description: siteConfig.shortDescription,
-    images: [absoluteUrl('/og.svg')],
+    images: [absoluteUrl('/og-card.png')],
   },
 }
 

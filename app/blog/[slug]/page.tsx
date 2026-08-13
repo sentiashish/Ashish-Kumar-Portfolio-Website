@@ -25,13 +25,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: 'article',
       publishedTime: new Date(post.date).toISOString(),
       authors: [siteConfig.name],
-      images: [{ url: absoluteUrl('/og.svg'), width: 1200, height: 630, alt: post.title }],
+      images: [{ url: absoluteUrl('/og-card.png'), width: 1731, height: 909, alt: `${post.title} by Ashish Kumar` }],
     },
     twitter: {
       card: 'summary_large_image',
       title: `${post.title} | ${siteConfig.name}`,
       description: post.excerpt,
-      images: [absoluteUrl('/og.svg')],
+      images: [absoluteUrl('/og-card.png')],
     },
   }
 }
@@ -63,7 +63,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       '@id': postUrl,
     },
     url: postUrl,
-    image: absoluteUrl('/og.svg'),
+    image: absoluteUrl('/og-card.png'),
     inLanguage: 'en',
   }
 
