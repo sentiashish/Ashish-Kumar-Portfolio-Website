@@ -1,5 +1,5 @@
 export const siteConfig = {
-  url: 'https://ashishkumar.dev',
+  url: 'https://krashish.in',
   name: 'Ashish Kumar',
   title: 'Ashish Kumar | Software Engineer & Final-Year Engineering Student | KJ Somaiya',
   description:
