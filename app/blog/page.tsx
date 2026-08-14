@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     description: 'Notes on software engineering, product development, and practical system design.',
     url: absoluteUrl('/blog'),
     type: 'website',
-    images: [{ url: absoluteUrl('/og-card.png'), width: 1731, height: 909, alt: 'Ashish Kumar software engineering blog' }],
+    images: [{ url: absoluteUrl('/og-card.jpg'), width: 1200, height: 630, alt: 'Ashish Kumar software engineering blog' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: `Blog | ${siteConfig.name}`,
     description: 'Notes on software engineering and building useful products.',
-    images: [absoluteUrl('/og-card.png')],
+    images: [absoluteUrl('/og-card.jpg')],
   },
 }
 

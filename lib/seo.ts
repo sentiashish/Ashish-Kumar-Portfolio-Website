@@ -5,7 +5,7 @@ export const siteConfig = {
   description:
     'Ashish Kumar is a final-year Computer Engineering student at K. J. Somaiya College of Engineering, Mumbai, building software projects and seeking tech opportunities.',
   shortDescription:
-    'Final-year Computer Engineering student at K. J. Somaiya College of Engineering, Mumbai, building full-stack and AI-enabled software projects.',
+    'Final-year Computer Engineering student at K. J. Somaiya College of Engineering, Mumbai, building software projects with C++, Python, MERN, SQL, and AWS.',
   role: 'Final-Year Computer Engineering Student & Aspiring Software Engineer',
   education: 'K. J. Somaiya College of Engineering, Mumbai',
   email: 'ashish19@somaiya.edu',

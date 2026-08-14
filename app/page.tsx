@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     url: siteConfig.url,
     type: 'website',
-    images: [{ url: absoluteUrl('/og-card.png'), width: 1731, height: 909, alt: 'Ashish Kumar, Software Engineer at K. J. Somaiya College of Engineering, Mumbai' }],
+    images: [{ url: absoluteUrl('/og-card.jpg'), width: 1200, height: 630, alt: 'Ashish Kumar, Software Engineer at K. J. Somaiya College of Engineering, Mumbai' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: siteConfig.title,
     description: siteConfig.shortDescription,
-    images: [absoluteUrl('/og-card.png')],
+    images: [absoluteUrl('/og-card.jpg')],
   },
 }
 
@@ -28,7 +28,7 @@ export default function Page() {
     name: siteConfig.name,
     alternateName: siteConfig.alternateNames,
     url: siteConfig.url,
-    image: absoluteUrl('/ASHISH_KUMAR.jpeg'),
+    image: absoluteUrl('/ashish-kumar-profile.jpg'),
     description: siteConfig.description,
     jobTitle: siteConfig.role,
     affiliation: {
@@ -44,13 +44,12 @@ export default function Page() {
     sameAs: siteConfig.sameAs,
     knowsAbout: [
       'Software Engineering',
-      'Full-Stack Development',
-      'Next.js',
-      'React',
-      'Node.js',
-      'MongoDB',
+      'MERN Stack',
       'Python',
-      'AI Applications',
+      'C++',
+      'SQL',
+      'AWS',
+      'Data Structures and Algorithms',
     ],
   }
 
